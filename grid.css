@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 250px;
+    gap: 20px;
+    grid-template-areas: 
+        "pirveli meore meore mesame"
+        "pirveli meotxe mexute meeqvse"
+        "pirveli meshvide meshvide meeqvse"
+    ;
+}
+
+.box {
+    background-color: green;
+}
+
+
+/* .box1 {
+    grid-row: span 3;
+}
+
+
+.box2 {
+    grid-column: span 2;
+}
+
+.box6 {
+    grid-row: span 2;
+} */
+
+
+.box1 {
+    grid-area: pirveli;
+}
+.box2 {
+    grid-area: meore;
+}
+.box3 {
+    grid-area: mesame;
+}
+.box4 {
+    grid-area: meotxe;
+}
+.box5 {
+    grid-area: mexute;
+}
+.box6 {
+    grid-area: meeqvse;
+}
+.box7 {
+    grid-area: meshvide;
+}
+.box8 {
+    grid-area: merve;
+}
